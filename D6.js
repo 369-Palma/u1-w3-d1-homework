@@ -134,7 +134,16 @@ console.log(Stringa1); */
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("Esercizio 7:");
+function reverseString(s) {
+  let splitstringa = s.split("");
+  let reverseArray = splitstringa.reverse();
+  let nuovastringa = reverseArray.join("");
+  return nuovastringa;
+}
 
+let V = reverseString("Epicode");
+console.log(V);
 /* ESERCIZIO 8
  Scrivi una funzione di nome "upperFirst", che riceve come parametro una stringa formata da diverse parole.
  La funzione deve rendere maiuscola la prima lettera di ogni parola contenuta nella stringa.
