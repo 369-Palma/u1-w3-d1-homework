@@ -75,6 +75,21 @@ console.log(differenza2);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 console.log("Esercizio 4:");
+
+function boundary(n) {
+  if ((n >= 20 && n <= 100) || n === 400) {
+    return "true";
+  } else {
+    return "false";
+  }
+}
+
+let Variabile = boundary(35);
+console.log(Variabile);
+
+let Variabile2 = boundary(200);
+console.log(Variabile2);
+
 /* ESERCIZIO 5
  Scrivi una funzione di nome "epify" che accetta una stringa come parametro.
  La funzione deve aggiungere la parola "EPICODE" all'inizio della stringa fornita, ma se la stringa fornita comincia già con "EPICODE" allora deve
@@ -82,6 +97,30 @@ console.log("Esercizio 4:");
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+/* console.log("Esercizio 5");
+
+function epify(s) {
+  if (typeof s !== "string") {
+    console.log(`Attenzione, questa non è una stringa.
+  Dammi una stringa`);
+  } else {
+    let ParoleStringa = [s.split(" ")];
+    if (ParoleStringa[0] == !"EPICODE") {
+      const Epicode = ["EPICODE"];
+      let NuovoArray = Epicode.push(ParoleStringa);
+      NuovaFrase = NuovoArray.join(" ");
+      return NuovaFrase;
+    }
+  }
+}
+
+let Stringa0 = epify(3445);
+
+let Stringa = epify("questo esercizio non mi piace");
+console.log(Stringa);
+
+let Stringa1 = epify("EPICODEquestoeserciziononmipiace");
+console.log(Stringa1); */
 
 /* ESERCIZIO 6
  Scrivi una funzione di nome "check3and7" che accetta un numero positivo come parametro. La funzione deve controllare che il parametro sia un multiplo
