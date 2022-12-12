@@ -53,18 +53,20 @@ console.log(risultato2);
 console.log("Esercizio 3:");
 
 function crazyDiff(p, x) {
-  const x = 19;
-
   if (Math.abs(p - x) > 19) {
     const differenza = Math.abs(p - x) * 3;
     return differenza;
   } else {
-    return (differenza = Math.abs(p - x));
+    const differenza = Math.abs(p - x);
+    return differenza;
   }
 }
 
 let differenza = crazyDiff(3, 19);
 console.log(differenza);
+
+let differenza2 = crazyDiff(49, 19);
+console.log(differenza2);
 
 /* ESERCIZIO 4
  Scrivi una funzione di nome "boundary" che accetta un numero intero n come parametro, e ritorna true se n è compreso tra 20 e 100 (incluso) oppure
@@ -72,7 +74,7 @@ console.log(differenza);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+console.log("Esercizio 4:");
 /* ESERCIZIO 5
  Scrivi una funzione di nome "epify" che accetta una stringa come parametro.
  La funzione deve aggiungere la parola "EPICODE" all'inizio della stringa fornita, ma se la stringa fornita comincia già con "EPICODE" allora deve
