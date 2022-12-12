@@ -12,9 +12,12 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("Esercizio 1:");
+
 function area(l1, l2) {
-  console.log("la somma è:", l1 + l2);
+  return l1 * l2;
 }
+console.log("L'area è:", area(3, 8));
 //
 /* ESERCIZIO 2
  Scrivi una funzione di nome "crazySum", che riceve due numeri interi come parametri.
@@ -23,6 +26,23 @@ function area(l1, l2) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("Esercizio 2:");
+
+function crazySum(i1, i2) {
+  if (i1 !== i2) {
+    const risultato = i1 + i2;
+    return risultato;
+  } else {
+    return (risultato = (i1 + i2) * 3);
+  }
+}
+
+let risultato = crazySum(7, 3);
+
+console.log(risultato);
+
+let risultato2 = crazySum(2, 2);
+console.log(risultato2);
 
 /* ESERCIZIO 3
  Scrivi una funzione di nome "crazyDiff" che calcola la differenza assoluta tra un numero fornito come parametro e 19.
@@ -30,6 +50,21 @@ function area(l1, l2) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("Esercizio 3:");
+
+function crazyDiff(p, x) {
+  const x = 19;
+
+  if (Math.abs(p - x) > 19) {
+    const differenza = Math.abs(p - x) * 3;
+    return differenza;
+  } else {
+    return (differenza = Math.abs(p - x));
+  }
+}
+
+let differenza = crazyDiff(3, 19);
+console.log(differenza);
 
 /* ESERCIZIO 4
  Scrivi una funzione di nome "boundary" che accetta un numero intero n come parametro, e ritorna true se n è compreso tra 20 e 100 (incluso) oppure
