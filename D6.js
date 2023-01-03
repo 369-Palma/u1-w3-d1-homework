@@ -105,8 +105,8 @@ function epify(s) {
   Dammi una stringa`);
   } else {
     let ParoleStringa = [s.split(" ")];
-    if (ParoleStringa[0] == !"EPICODE") {
-      const Epicode = ["EPICODE"];
+    if (ParoleStringa[0] ==! "EPICODE") {
+      const Epicode = "EPICODE";
       let NuovoArray = Epicode.push(ParoleStringa);
       NuovaFrase = NuovoArray.join(" ");
       return NuovaFrase;
@@ -128,7 +128,8 @@ console.log(Stringa1); */
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+console.log("Esercizio 6:");
+function check3and7()
 /* ESERCIZIO 7
  Scrivi una funzione di nome "reverseString", il cui scopo è invertire una stringa fornita come parametro (es. "EPICODE" --> "EDOCIPE")
 */
@@ -144,22 +145,24 @@ function reverseString(s) {
 
 let V = reverseString("Epicode");
 console.log(V);
+
 /* ESERCIZIO 8
  Scrivi una funzione di nome "upperFirst", che riceve come parametro una stringa formata da diverse parole.
  La funzione deve rendere maiuscola la prima lettera di ogni parola contenuta nella stringa.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+console.log("Esercizio 8:");
 /* ESERCIZIO 9
  Scrivi una funzione di nome "cutString", che riceve come parametro una stringa. La funzione deve creare una nuova stringa senza il primo e l'ultimo carattere
  della stringa originale.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+console.log("Esercizio 9:");
 /* ESERCIZIO 10
  Scrivi una funzione di nome "giveMeRandom", che accetta come parametro un numero n e ritorna un'array contenente n numeri casuali inclusi tra 0 e 10.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("Esercizio 10:");
